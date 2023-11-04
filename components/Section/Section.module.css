@@ -1,0 +1,14 @@
+.section__container {
+	display: flex;
+	flex-direction: column;
+
+	align-items: center;
+
+	margin-bottom: 80px;
+}
+
+@media (min-width: 428px) {
+	.section__container {
+		margin-bottom: 100px;
+	}
+}

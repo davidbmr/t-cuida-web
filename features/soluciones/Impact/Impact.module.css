@@ -1,0 +1,56 @@
+.impact__title {
+	font-size: 26px;
+	font-weight: 700;
+	text-align: center;
+	color: #fff;
+}
+.impact__title span {
+	color: var(--primary-color);
+}
+
+.impact__info__list {
+	display: grid;
+	gap: 20px;
+}
+.impact__info__item {
+	display: grid;
+	align-items: center;
+	grid-template-columns: 1fr 3fr;
+}
+.impact__info__text {
+	color: #fff;
+}
+.impact__info__text span {
+	font-weight: 700;
+}
+
+.imagen__maria__box {
+	display: none;
+}
+
+@media (min-width: 700px) {
+	.box__container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		margin-top: 50px;
+	}
+	.imagen__maria__box {
+		display: grid;
+		position: relative;
+	}
+	.imagen__maria {
+		width: 220px;
+		height: auto;
+		position: absolute;
+		bottom: -25px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.imagen__maria {
+		height: auto;
+		position: absolute;
+		bottom: -25px;
+		left: 40px;
+	}
+}

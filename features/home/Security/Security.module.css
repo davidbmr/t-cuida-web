@@ -1,0 +1,23 @@
+.security__title {
+	width: 250px;
+	font-size: 22px;
+	color: var(--primary-color);
+	text-align: center;
+}
+.cardSecurity__container__list {
+	width: 90%;
+	max-width: 800px;
+
+	display: grid;
+	justify-items: center;
+
+	gap: 20px;
+	grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+}
+
+@media (min-width: 700px) {
+	.security__title {
+		width: auto;
+		font-size: 30px;
+	}
+}

@@ -1,0 +1,26 @@
+.cardSecurity__container {
+	width: 240px;
+	height: 270px;
+	background-color: var(--background-card-color);
+	border-radius: 20px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 10px;
+	padding: 20px;
+}
+.cardSecurity__title {
+	color: #fff;
+	font-weight: 700;
+	font-size: 18px;
+	text-align: center;
+}
+.img__container {
+	width: 100%;
+	
+}
+.img__item {
+	width: 100%;
+	height: auto;
+}

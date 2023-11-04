@@ -1,0 +1,27 @@
+.testimonialBox__container {
+	min-width: 240px;
+	padding: 20px;
+	border: 2px solid #ff9896;
+	border-radius: 30px;
+  display: grid;
+  gap: 20px;
+}
+
+.testimonialBox__header {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+}
+
+.testimonialBox__name {
+	color: #ff9896;
+	font-weight: 800;
+}
+.testimonialBox__rol {
+	color: #fff;
+	font-size: 14px;
+}
+
+.testimonialBox__text {
+	color: #fff;
+	font-size: 14px;
+}

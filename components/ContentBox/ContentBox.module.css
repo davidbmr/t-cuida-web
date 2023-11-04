@@ -1,0 +1,18 @@
+.contentBox__container {
+	width: 90%;
+	max-width: 800px;
+	min-height: 100px;
+	height: fit-content;
+
+	padding: 20px 25px;
+	border-radius: 30px;
+	background: rgba(255, 255, 255, 0.07);
+
+	position: relative;
+}
+
+@media (min-width: 428px) {
+	.contentBox__container {
+		padding: 25px 30px;
+	}
+}

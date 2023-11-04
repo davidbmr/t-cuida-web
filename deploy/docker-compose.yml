@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  app:
+    image: 455708140048.dkr.ecr.us-east-2.amazonaws.com/t-cuida-web:latest
+    restart: always
+    environment:
+      VIRTUAL_HOST: ${DOMAIN}
+      LETSENCRYPT_HOST: ${DOMAIN}
+      LETSENCRYPT_EMAIL: arianvaldivieso@gmail.com
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true

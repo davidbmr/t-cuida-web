@@ -1,0 +1,16 @@
+.description__text {
+	font-size: 18px;
+	color: #fff;
+}
+.description__text span {
+	font-weight: 700;
+}
+.description__text__especial {
+	color: var(--primary-color);
+}
+
+@media (min-width: 700px) {
+	.description__text {
+		font-size: 35px;
+	}
+}

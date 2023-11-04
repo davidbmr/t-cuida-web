@@ -1,0 +1,19 @@
+.cardListBlog__container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(285px,1fr));
+
+}
+
+@media (min-width: 768px){
+    .cardListBlog__container{
+         margin: 0 80px;
+         gap: 30px;
+     }
+}
+
+@media (min-width: 1440px){
+    .cardListBlog__container{
+         margin: 0 140px;
+         gap: 30px;
+     }
+}

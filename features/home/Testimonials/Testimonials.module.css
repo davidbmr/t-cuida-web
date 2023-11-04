@@ -1,0 +1,13 @@
+.testimonials__title {
+	width: 250px;
+	text-align: center;
+	color: var(--primary-color);
+	font-size: 22px;
+}
+
+@media (min-width: 700px) {
+	.testimonials__title {
+		width: 100%;
+		font-size: 30px;
+	}
+}

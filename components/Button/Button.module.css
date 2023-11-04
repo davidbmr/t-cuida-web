@@ -1,0 +1,8 @@
+.button__container {
+  width: fit-content;
+  padding: 10px 20px;
+	font-size: 14px;
+	color: #ff9896;
+	border: solid 1px #ff9896;
+	border-radius: 25px;
+}

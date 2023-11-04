@@ -1,0 +1,60 @@
+.section__extraInformation {
+	background: url("/background-img/background-beneficios.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	padding: 50px 0;
+	padding-bottom: 200px;
+	margin-bottom: -100px;
+}
+.extraInfo__title {
+	width: 200px;
+	color: #fff;
+	font-size: 22px;
+	text-align: center;
+}
+
+.card__list {
+	width: 100%;
+	display: grid;
+	justify-items: center;
+	gap: 20px;
+}
+.card__extraInfo {
+	background: rgba(39, 38, 90, 0.8);
+
+	width: 250px;
+	height: 110px;
+	border-radius: 20px;
+	display: grid;
+	place-content: center;
+	padding: 0 20px;
+}
+.card__extraInfo__text {
+	font-size: 13px;
+	font-weight: 600;
+	color: #fff;
+	text-align: center;
+}
+
+.arrowIcon {
+	width: 40px;
+	height: auto;
+	transform: rotate(90deg);
+}
+
+@media (min-width: 700px) {
+	.card__list {
+		width: 600px;
+		grid-template-columns: 1fr 1fr;
+		justify-content: center;
+	}
+}
+
+@media (min-width: 1200px) {
+	.extraInfo__title {
+		width: 300px;
+		font-size: 30px;
+	}
+}
