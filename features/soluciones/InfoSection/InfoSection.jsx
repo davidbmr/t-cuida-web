@@ -33,7 +33,7 @@ export const InfoSection = () => {
 					<Image
 						className={style.infoText__img}
 						src={imgSoluciones1}
-						alt="primera imagen de la seccion"
+						alt="segunda imagen de la seccion"
 					/>
 				</div>
 			</div>
